@@ -1,0 +1,52 @@
+/* Nav bar */
+#nav-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+    width: 89vw;
+    margin: auto;
+    background-color: rgba(255, 167, 126, 0.712);
+    border-bottom-left-radius: 10px 50px;
+    border-bottom-right-radius: 15px 40px;
+    border-top-left-radius: 20px 10px;
+    border-top-right-radius: 10px 50px;
+    margin-bottom: 8vh;
+}
+
+.textNav {
+    text-decoration: none;
+}
+
+.textNav:hover {
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.bodyText {
+    margin-right: 50px;
+}
+
+
+/* Background theme for the pages */
+.main-wrapper {
+    height: 100vw;
+    width: 100vw;
+    background-color: rgba(41, 224, 169, 0.685);
+}
+
+/* Picture styling */
+#profile-pic {
+    height: 40%;
+    width: 30%;
+    opacity: .5;
+    float: left;
+    border-top-left-radius: 10px 200px;
+    border-top-right-radius: 10px 225px;
+    border-bottom-right-radius: 20px 225px;
+    border-bottom-left-radius: 220px 10px;   
+    margin-right: 20px;  
+    margin-bottom: 15px;
+}
+
+
